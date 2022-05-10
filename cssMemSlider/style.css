@@ -29,5 +29,34 @@ img {
 }
 
 .under-slider {
-    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image-name {
+    position: relative;
+    width: 20rem;
+    height: 5rem; 
+}
+
+.image-name p {
+    position: absolute;
+    font-size: 1.6rem;
+    letter-spacing: 0.06em;
+}
+
+.switches {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem; 
+    height: 5rem;
+    align-items: center;
+}
+
+.switches label {
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 10px;
 }
