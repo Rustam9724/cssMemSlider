@@ -8,68 +8,53 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="carousel">
-        <div class="carousel-inner">
-            <input checked="checked" type="radio" name="carousel" id="carousel-1" class="carousel-open" hidden>
-            <div class="carousel-item">
-                <img src="assets/1.jpg">
-                <p>"Широ и Поппи". Стр. 1</p>
-            </div>
-            <input type="radio" name="carousel" id="carousel-2" class="carousel-open" hidden>
-            <div class="carousel-item carousel-item-2">
-                <img src="assets/2.jpg">
-                <p>"Широ и Поппи". Стр. 2</p> 
-            </div>
-            <input type="radio" name="carousel" id="carousel-3" class="carousel-open" hidden>
-            <div class="carousel-item carousel-item-3">
-                <img src="assets/3.jpg">
-                <p>"Широ и Поппи". Стр. 3</p>
-            </div>
-            <input type="radio" name="carousel" id="carousel-4" class="carousel-open" hidden>
-            <div class="carousel-item carousel-item-4">
-                <img src="assets/4.jpg">
-                <p>"Широ и Поппи". Стр. 4</p>
-            </div>
-            <input type="radio" name="carousel" id="carousel-5" class="carousel-open" hidden>
-            <div class="carousel-item carousel-item-5">
-                <img src="assets/5.jpg">
-                <p>"Широ и Поппи". Стр. 5</p>
-            </div>
-            <input type="radio" name="carousel" id="carousel-6" class="carousel-open" hidden>
-            <div class="carousel-item carousel-item-6">
-                <img src="assets/6.jpg">
-                <p>"Широ и Поппи". Стр. 6</p>
-            </div>
-            <input type="radio" name="carousel" id="carousel-7" class="carousel-open" hidden>
-            <div class="carousel-item carousel-item-7">
-                <img src="assets/7.jpg">
-                <p>"Широ и Поппи". Стр. 7</p>
+    <div class="wrapper">
+        <div class="container">
+            <div class="slider">
+                <input type="radio" name="carousel" id="image-1" hidden>
+                <img src="assets/1.jpg" alt="first-page">
+                <input type="radio" name="carousel" id="image-2" hidden>
+                <img src="assets/2.jpg" alt="second-page">
+                <input type="radio" name="carousel" id="image-3" hidden>
+                <img src="assets/3.jpg" alt="third-page">
+                <input type="radio" name="carousel" id="image-4" hidden>
+                <img src="assets/4.jpg" alt="fourth-page">
+                <input type="radio" name="carousel" id="image-5" hidden>
+                <img src="assets/5.jpg" alt="fifth-page">
+                <input type="radio" name="carousel" id="image-6" hidden>
+                <img src="assets/6.jpg" alt="sixth-page">
+                <input type="radio" name="carousel" id="image-7" hidden>
+                <img src="assets/7.jpg" alt="seventh-page">
             </div>
         </div>
-        
-        <ol class="carousel-indicators">
-            <li>
-                <label for="carousel-1" id="carousel-bullet-1" class="label"><span class="carousel-bullet"></span></label>
-            </li>
-            <li>
-                <label for="carousel-2" id="carousel-bullet-2" class="label"><span class="carousel-bullet" ></span></label>
-            </li>
-            <li>
-                <label for="carousel-3" id="carousel-bullet-3" class="label"><span class="carousel-bullet"></span></label>
-            </li>
-            <li>
-                <label for="carousel-4" id="carousel-bullet-4" class="label"><span class="carousel-bullet" ></span></label>
-            </li>
-            <li>
-                <label for="carousel-5" id="carousel-bullet-5" class="label"><span class="carousel-bullet"></span></label>
-            </li>
-            <li>
-                <label for="carousel-6" id="carousel-bullet-6" class="label"><span class="carousel-bullet"></span></label>
-            </li>
-            <li>
-                <label for="carousel-7" id="carousel-bullet-7" class="label"><span class="carousel-bullet"></span></label>
-            </li>
-        </ol>
+        <div class="under-slider">
+            <div class="image-name">
+                <input type="radio" name="carousel" id="name-1" hidden>
+                <p>Широ и поппи. Стр. 1</p>
+                <input type="radio" name="carousel" id="name-2" hidden>
+                <p>Широ и поппи. Стр. 2</p>
+                <input type="radio" name="carousel" id="name-3" hidden>
+                <p>Широ и поппи. Стр. 3</p>
+                <input type="radio" name="carousel" id="name-4" hidden>
+                <p>Широ и поппи. Стр. 4</p>
+                <input type="radio" name="carousel" id="name-5" hidden>
+                <p>Широ и поппи. Стр. 5</p>
+                <input type="radio" name="carousel" id="name-6" hidden>
+                <p>Широ и поппи. Стр. 6</p>
+                <input type="radio" name="carousel" id="name-7" hidden>
+                <p>Широ и поппи. Стр. 7</p>
+            </div>
+            <div class="switches">
+                <label for="image-1" for="name-1"></label>
+                <label for="image-2" for="name-2"></label>
+                <label for="image-3" for="name-3"></label>
+                <label for="image-4" for="name-4"></label>
+                <label for="image-5" for="name-5"></label>
+                <label for="image-6" for="name-6"></label>
+                <label for="image-7" for="name-7"></label>
+            </div>
+            <div class="under-slider">
+        </div>
     </div>
 </body>
 </html>
