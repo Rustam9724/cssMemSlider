@@ -21,6 +21,7 @@ body {
     position: relative;
     width: auto;
     height: 50rem;
+    margin-bottom: 2.5rem;
 }
 
 img {
@@ -35,6 +36,12 @@ img {
     width: 100%;
 }
 
+@media (max-width: 520px) {
+    .under-slider {
+        flex-direction: column-reverse;
+    }
+}
+
 .image-name {
     position: relative;
     width: 20rem;
@@ -46,7 +53,9 @@ img {
     font-size: 1.6rem;
     letter-spacing: 0.06em;
     opacity: 0;
-    font-weight: bold;
+    font-weight: 1000;
+    margin: 0;
+    padding-top: 1rem;
 }
 
 
@@ -56,6 +65,13 @@ img {
     width: 2rem;
     align-items: center;
     width: 20rem;
+}
+
+@media (max-width: 520px) {
+    .switches {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .switches > div {
@@ -73,7 +89,7 @@ img {
 
 .switches label {
     width: 2rem;
-    height: 3rem;
+    height: 4rem;
     background: radial-gradient(circle at 1rem 1rem, black 0rem, black 1rem, orangered 1rem, orangered);
     display: block;
 }
@@ -85,72 +101,72 @@ img {
 
 #radio-button-1:checked ~ .slider > #image-1 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-2:checked ~ .slider > #image-2 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-3:checked ~ .slider > #image-3 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-4:checked ~ .slider > #image-4 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-5:checked ~ .slider > #image-5 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-6:checked ~ .slider > #image-6 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-7:checked ~ .slider > #image-7 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-1:checked ~ .under-slider #name-1 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-2:checked ~ .under-slider #name-2 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-3:checked ~ .under-slider #name-3 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-4:checked ~ .under-slider #name-4 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-5:checked ~ .under-slider #name-5 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-6:checked ~ .under-slider #name-6 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-7:checked ~ .under-slider #name-7 {
     opacity: 100;
-    transition: all 0.5s linear;
+    transition: all 0.75s linear;
 }
 
 #radio-button-1:checked ~ .under-slider #switch-1 {
