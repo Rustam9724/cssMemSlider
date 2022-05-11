@@ -26,6 +26,7 @@ body {
 img {
     position: absolute;
     width: 100%;
+    opacity: 0;
 }
 
 .under-slider {
@@ -46,17 +47,37 @@ img {
     letter-spacing: 0.06em;
 }
 
+
 .switches {
     display: flex;
     justify-content: space-between;
-    width: 20rem; 
-    height: 5rem;
+    width: 2rem;
     align-items: center;
+    width: 20rem;
 }
+
+.switches > div {
+    width: 2rem;
+    height: 3rem;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.label-wrapper:hover > label {
+    background-color: white;
+}
+
 
 .switches label {
     width: 2rem;
     height: 2rem;
     background-color: black;
     border-radius: 10px;
+    display: block;
+}
+
+.switches label:hover {
+    background-color: white;
+    cursor: pointer;
 }
