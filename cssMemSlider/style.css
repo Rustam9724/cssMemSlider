@@ -73,14 +73,13 @@ img {
 
 .switches label {
     width: 2rem;
-    height: 2rem;
-    background-color: black;
-    border-radius: 10px;
+    height: 3rem;
+    background: radial-gradient(circle at 1rem 1rem, black 0rem, black 1rem, orangered 1rem, orangered);
     display: block;
 }
 
 .switches label:hover {
-    background-color: white;
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
     cursor: pointer;
 }
 
@@ -152,4 +151,32 @@ img {
 #radio-button-7:checked ~ .under-slider #name-7 {
     opacity: 100;
     transition: all 0.5s linear;
+}
+
+#radio-button-1:checked ~ .under-slider #switch-1 {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-2:checked ~ .under-slider #switch-2 {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-3:checked ~ .under-slider #switch-3 {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-4:checked ~ .under-slider #switch-4 {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-5:checked ~ .under-slider #switch-5 {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-6:checked ~ .under-slider #switch-6 {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-7:checked ~ .under-slider #switch-7 {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
 }
