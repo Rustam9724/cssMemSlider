@@ -1,0 +1,202 @@
+@keyframes vis {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: orangered;
+    margin-top: 4rem;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.slider {
+    width: auto;
+    height: 50rem;
+    margin-bottom: 2.5rem;
+    overflow: hidden;    
+    display: flex;
+}
+
+img {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.75s linear;
+}
+
+img:not(:first-child) {
+    margin-left: -50rem;
+}
+
+.under-slider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 520px) {
+    .under-slider {
+        flex-direction: column-reverse;
+    }
+}
+
+.image-name {
+    width: 20rem;
+    height: 5rem; 
+    overflow: hidden;
+    display: flex;
+}
+
+p {
+    font-size: 1.6rem;
+    letter-spacing: 0.06em;
+    font-weight: 1000;
+    margin: 0;
+    padding-top: 1rem;
+    opacity: 0;
+    transition: all 0.75s linear;
+}
+
+p:not(:first-child) {
+    margin-left: -19.697rem;
+}
+
+.switches {
+    display: flex;
+    justify-content: space-between;
+    width: 2rem;
+    align-items: center;
+    width: 20rem;
+}
+
+@media (max-width: 520px) {
+    .switches {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.switches > div {
+    width: 2rem;
+    height: 3rem;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.label-wrapper:hover > label {
+    background-color: white;
+}
+
+
+.switches label {
+    width: 2rem;
+    height: 4rem;
+    background: radial-gradient(circle at 1rem 1rem, black 0rem, black 1rem, orangered 1rem, orangered);
+    display: block;
+}
+
+.switches label:hover {
+    background: radial-gradient(circle at 1rem 1rem, white 0rem, white 1rem, orangered 1rem, orangered);
+    cursor: pointer;
+}
+
+#radio-button-1:checked ~ .slider > #image-1 {
+    opacity: 100;
+}
+
+#radio-button-2:checked ~ .slider > #image-2 {
+    opacity: 100;
+}
+
+#radio-button-3:checked ~ .slider > #image-3 {
+    opacity: 100;
+}
+
+#radio-button-4:checked ~ .slider > #image-4 {
+    opacity: 100;
+}
+
+#radio-button-5:checked ~ .slider > #image-5 {
+    opacity: 100;
+}
+
+#radio-button-6:checked ~ .slider > #image-6 {
+    opacity: 100;
+}
+
+#radio-button-7:checked ~ .slider > #image-7 {
+    opacity: 100;
+}
+
+#radio-button-1:checked ~ .under-slider #name-1 {
+    opacity: 100;
+}
+
+#radio-button-2:checked ~ .under-slider #name-2 {
+    opacity: 100;
+}
+
+#radio-button-3:checked ~ .under-slider #name-3 {
+    opacity: 100;
+}
+
+#radio-button-4:checked ~ .under-slider #name-4 {
+    opacity: 100;
+}
+
+#radio-button-5:checked ~ .under-slider #name-5 {
+    opacity: 100;
+}
+
+#radio-button-6:checked ~ .under-slider #name-6 {
+    opacity: 100;
+}
+
+#radio-button-7:checked ~ .under-slider #name-7 {
+    opacity: 100;
+}
+
+#radio-button-1:checked ~ .under-slider #switch-1 {
+    background: radial-gradient(circle at 1rem 1rem, green 0rem, green 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-2:checked ~ .under-slider #switch-2 {
+    background: radial-gradient(circle at 1rem 1rem, green 0rem, green 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-3:checked ~ .under-slider #switch-3 {
+    background: radial-gradient(circle at 1rem 1rem, green 0rem, green 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-4:checked ~ .under-slider #switch-4 {
+    background: radial-gradient(circle at 1rem 1rem, green 0rem, green 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-5:checked ~ .under-slider #switch-5 {
+    background: radial-gradient(circle at 1rem 1rem, green 0rem, green 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-6:checked ~ .under-slider #switch-6 {
+    background: radial-gradient(circle at 1rem 1rem, green 0rem, green 1rem, orangered 1rem, orangered);
+}
+
+#radio-button-7:checked ~ .under-slider #switch-7 {
+    background: radial-gradient(circle at 1rem 1rem, green 0rem, green 1rem, orangered 1rem, orangered);
+}
