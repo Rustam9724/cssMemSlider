@@ -46,6 +46,7 @@ img {
     font-size: 1.6rem;
     letter-spacing: 0.06em;
     opacity: 0;
+    font-weight: bold;
 }
 
 
@@ -114,6 +115,41 @@ img {
 }
 
 #radio-button-7:checked ~ .slider > #image-7 {
+    opacity: 100;
+    transition: all 0.5s linear;
+}
+
+#radio-button-1:checked ~ .under-slider #name-1 {
+    opacity: 100;
+    transition: all 0.5s linear;
+}
+
+#radio-button-2:checked ~ .under-slider #name-2 {
+    opacity: 100;
+    transition: all 0.5s linear;
+}
+
+#radio-button-3:checked ~ .under-slider #name-3 {
+    opacity: 100;
+    transition: all 0.5s linear;
+}
+
+#radio-button-4:checked ~ .under-slider #name-4 {
+    opacity: 100;
+    transition: all 0.5s linear;
+}
+
+#radio-button-5:checked ~ .under-slider #name-5 {
+    opacity: 100;
+    transition: all 0.5s linear;
+}
+
+#radio-button-6:checked ~ .under-slider #name-6 {
+    opacity: 100;
+    transition: all 0.5s linear;
+}
+
+#radio-button-7:checked ~ .under-slider #name-7 {
     opacity: 100;
     transition: all 0.5s linear;
 }
